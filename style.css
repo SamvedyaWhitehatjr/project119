@@ -1,0 +1,71 @@
+body
+{
+    background-color: #795C34;
+}
+
+h1
+{
+    font-family:'Fredoka', sans-serif;
+    background-color: #65350F;
+    color: black;
+}
+
+#show_sketch
+{
+    font-size: 14px;
+    float: right;
+    margin-right: 50px;
+}
+
+#score
+{
+    font-size: 14px;
+    font-family:'Fredoka', sans-serif;
+    color: black;
+}
+
+p
+{
+    font-size: 20px;
+    font-family:'Fredoka', sans-serif;
+    color: black;
+}
+
+#sketch_to_be_drawn{
+    font-size: 20px;
+    font-family:'Fredoka', sans-serif;
+    color: #65350F;
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    background-color: white;
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px black;
+    box-shadow: 1px 1px 38px rgb(105, 70, 50);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px beige;}
+  to {box-shadow: 1px 1px 38px black;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
